@@ -1,0 +1,84 @@
+body {
+	font-family: 'Lato', Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.background {
+	background-image: url("../images/backgrounds/df/background.jpg");
+	position: relative;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-color: #FFF;
+}
+
+.background .bubble {
+	background-color: none;
+	position: absolute;
+}
+
+.tooltip-container {
+	display: none;
+}
+
+.tooltip-content {
+	font-family: 'Lato', Helvetica, Arial, "Lucida Grande", sans-serif;
+	background-color: #FFF;
+	width: 500px;
+	font-size:1.2em;
+	line-height: 1.1em;
+}
+
+.tooltip-content .logo {
+	display:inline-block
+}
+
+.tooltip-content .logo img {
+	width: 150px;
+	height: 150px;
+}
+
+.tooltip-content .details {
+	display: inline-block;
+	vertical-align: top;
+	width: 340px;
+}
+
+.tooltip-content .details .title {
+	font-size: 2em;
+	line-height: 1em;
+	margin-bottom: 4px;
+}
+
+.tooltip-content .details .description {
+	margin-bottom: 4px;
+}
+
+.tooltip-content .details .wep_page {
+	margin-bottom: 4px;
+}
+
+.tooltip-content .details .wep_page a {
+	text-decoration: none;
+	font-weight: 700;
+	color: #0088CC;
+}
+
+.tooltip-content .details .social {
+	
+}
+
+.tooltip-content .details .social ul {
+	margin: 0;
+	padding: 0;
+}
+
+.tooltip-content .details .social ul li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 3px;
+}
+
+.tooltip-content .details .social ul li a {
+	text-decoration: none;
+	color: #000;
+}
